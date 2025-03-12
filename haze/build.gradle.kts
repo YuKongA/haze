@@ -64,6 +64,10 @@ kotlin {
       dependsOn(skikoMain)
     }
 
+    macosMain {
+      dependsOn(skikoMain)
+    }
+
     jvmMain {
       dependsOn(skikoMain)
     }
